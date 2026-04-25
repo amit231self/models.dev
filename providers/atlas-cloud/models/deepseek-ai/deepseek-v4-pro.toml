@@ -1,0 +1,26 @@
+name = "DeepSeek V4 Pro"
+family = "deepseek"
+release_date = "2026-01-20"
+last_updated = "2026-01-20"
+attachment = false
+reasoning = true
+temperature = true
+knowledge = "2025-09"
+tool_call = true
+open_weights = true
+
+[interleaved]
+field = "reasoning_content"
+
+[cost]
+input = 1.7
+output = 3.4
+cache_read = 0.14
+
+[limit]
+context = 262_144
+output = 65_536
+
+[modalities]
+input = ["text"]
+output = ["text"]
